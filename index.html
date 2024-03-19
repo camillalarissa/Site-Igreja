@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imagens/igreja.png" type="image/x-icon" />
+    <title>Igreja</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap CSS -->
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="inicio" class="bg-image">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"
+            ><img src="imagens/logo.png" alt="Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#quem-somos">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#oracao">Pedido de Oração</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#eventos">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#localizacao">Localização</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ministerio">Ministério</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="text-header">
+          <h1>Bem-vindo à Nossa Igreja</h1>
+          <p class="blinking">
+            Conectando pessoas e transformando vidas, traga sua família para ser
+            abençoada por Deus!
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Quem Somos -->
+    <section id="quem-somos" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Quem Somos</h2>
+            <p>
+              Somos uma igreja viva e apaixonada por Jesus Cristo, buscamos
+              cumprir os princípios bíblicos, tendo a Bíblia como nossa única
+              regra de fé. Cremos em Deus Pai, seu Filho e no Seu Santo Espírito
+              como nosso único e verdadeiro Deus. Desejamos ser uma carta viva
+              de amor escrita por Deus à humanidade. Trazer a luz a palavra, as
+              verdades que levarão a eternidade. Nossa Missão é pregar o
+              Evangelho a toda a criatura batizando-as em o nome do Pai, do
+              Filho e do Espírito Santo.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="imagens/bible.jpg" alt="Foto" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agenda -->
+    <section class="section">
+      <div class="container">
+        <h2>Agenda</h2>
+        <div class="agenda">
+          <table class="agenda-table">
+            <tr>
+              <th>Evento</th>
+              <th>Data</th>
+              <th>Horário</th>
+            </tr>
+            <tr>
+              <td>Culto</td>
+              <td>Quarta-feira</td>
+              <td>19:30 às 21:00</td>
+            </tr>
+            <tr>
+              <td>Culto da Família</td>
+              <td>Domingo</td>
+              <td>18:30 às 20:00</td>
+            </tr>
+
+            <tr>
+              <td>Ensino da Palavra</td>
+              <td>Domingo</td>
+              <td>10:00 às 11:00</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Topicos -->
+    <section class="section-topicos parallax">
+      <div class="container-parallax">
+        <div class="topicos">
+          <div class="card">
+            <i class="fas fa-book"></i>
+            <h3>Bíblia Online</h3>
+            <p>Acesse a Bíblia online e encontre inspiração diária.</p>
+            <a
+              href="https://www.bibliaonline.com.br/"
+              target="_blank"
+              class="btn"
+              >Acessar</a
+            >
+          </div>
+          <div class="card">
+            <i class="fas fa-microphone"></i>
+            <h3>Rádio Online</h3>
+            <p>
+              Sintonize nosso rádio online para ouvir mensagens edificantes.
+            </p>
+            <a
+              href="https://stream.zeno.fm/ywrz3bc45ldtv"
+              target="_blank"
+              class="btn"
+              >Ouvir</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pedido de Oração -->
+    <div class="container-parallax">
+      <section id="oracao" class="section">
+        <h1>Pedido de Oração</h1>
+
+        <div class="container pedido-oraçao">
+          <p>Faça seu pedido de oração. Preencha o formulário abaixo e envie</p>
+          <form id="form-oracao">
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" class="form-control" id="nome" name="nome" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+              <input
+                type="tel"
+                class="form-control"
+                id="telefone"
+                name="telefone"
+              />
+            </div>
+            <div class="form-group">
+              <label for="pedido">Pedido de Oração</label>
+              <textarea
+                class="form-control"
+                id="pedido"
+                name="pedido"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <!-- Eventos -->
+    <section id="eventos" class="events-section">
+      <div class="container">
+        <h1 class="events-h1">Eventos em Destaque</h1>
+        <div class="event-info">
+          <div class="event-slider">
+            <div class="slide">
+              <div class="slide-content">
+                <div class="event-details">
+                  <div class="date-icon">
+                    <i class="fas fa-calendar fa-lg" style="color: #eb6c05"></i>
+                    <span class="event-date">Primeiro Sábado do Mês</span>
+                  </div>
+                  <h2 class="event-name">Culto de Homens</h2>
+                  <ul>
+                    <li>
+                      <i
+                        class="fa-regular fa-calendar-days fa-lg"
+                        style="color: #eb6c05"
+                      ></i
+                      ><span>05/04/2024</span>
+                    </li>
+                    <li>
+                      <i
+                        class="fa-solid fa-location-dot fa-lg"
+                        style="color: #eb6c05"
+                      ></i
+                      ><span>Igreja</span>
+                    </li>
+                    <li>
+                      <i
+                        class="fa-solid fa-clock fa-lg"
+                        style="color: #eb6c05"
+                      ></i
+                      ><span>19:00</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="image-event">
+                  <img
+                    class="image"
+                    src="imagens/homem.jpg"
+                    alt="Imagem do Evento"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-content">
+                <div class="event-details">
+                  <div class="date-icon">
+                    <i class="fas fa-calendar fa-lg" style="color: #eb6c05"></i>
+                    <span class="event-date">Segundo Sábado do Mês</span>
+                  </div>
+                  <h2 class="event-name">Culto de Mulheres</h2>
+                  <ul>
+                    <li>
+                      <i
+                        class="fa-regular fa-calendar-days fa-lg"
+                        style="color: #eb6c05"
+                      ></i
+                      ><span>05/04/2024</span>
+                    </li>
+                    <li>
+                      <i
+                        class="fa-solid fa-location-dot fa-lg"
+                        style="color: #eb6c05"
+                      ></i
+                      ><span>Igreja</span>
+                    </li>
+                    <li>
+                      <i
+                        class="fa-solid fa-clock fa-lg"
+                        style="color: #eb6c05"
+                      ></i
+                      ><span>19:00</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="image-event">
+                  <img
+                    class="image"
+                    src="imagens/mulheres.jpg"
+                    alt="Imagem do Evento"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-content">
+                <div class="event-details">
+                  <div class="date-icon">
+                    <i class="fas fa-calendar fa-lg" style="color: #eb6c05"></i>
+                    <span class="event-date">Terceiro Sábado do Mês</span>
+                  </div>
+                  <h2 class="event-name">Culto de Crianças</h2>
+                  <ul>
+                    <li>
+                      <i
+                        class="fa-regular fa-calendar-days fa-lg"
+                        style="color: #eb6c05"
+                      ></i
+                      ><span>05/04/2024</span>
+                    </li>
+                    <li>
+                      <i
+                        class="fa-solid fa-location-dot fa-lg"
+                        style="color: #eb6c05"
+                      ></i
+                      ><span>Igreja</span>
+                    </li>
+                    <li>
+                      <i
+                        class="fa-solid fa-clock fa-lg"
+                        style="color: #eb6c05"
+                      ></i
+                      ><span>19:00</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="image-event">
+                  <img
+                    class="image"
+                    src="imagens/crianças.jpg"
+                    alt="Imagem do Evento"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Localizaçao -->
+
+    <section id="localizacao" class="location-section">
+      <div class="container-local">
+        <h1>Localização</h1>
+        <i class="fa-solid fa-location-dot fa-2xl" style="color: #eb6c05"></i>
+        <div class="address">
+          <p>Avenida Paulista 123. Bairro Centro</p>
+          <p>São Paulo – SP. CEP: 98520-418</p>
+          <p>Cultos:</p>
+          <p>Quarta-Feira: 19:30</p>
+          <p>Domingo: 09:00</p>
+          <p>Domingo: 18:00</p>
+        </div>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9966083035642!2d-46.33812529999999!3d-23.5326244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7aef2f4cc773%3A0xfc423b42d05f1266!2sR.%20Jo%C3%A3o%20Moraca%2C%2015%20-%20Vila%20Eureka%2C%20Po%C3%A1%20-%20SP%2C%2008560-300!5e0!3m2!1spt-BR!2sbr!4v1710797844605!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Contato</h4>
+            <p>Endereço:R. João Moraca, 15 - Vila Eureka Poá</p>
+            <p>Email: seuemail@example.com</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Menu Rápido</h4>
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#quem-somos">Quem Somos</a></li>
+              <li><a href="#oracao">Pedido de Oração</a></li>
+              <li><a href="#eventos">Eventos</a></li>
+              <li><a href="#localizacao">Localização</a></li>
+              <li><a href="#ministerio">Ministério</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Redes Sociais</h4>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="footer-quote">
+              “Porque Deus amou o mundo de tal maneira, que deu o seu Filho
+              Unigênito, para que todo aquele que nele crê não pereça, mas tenha
+              a vida eterna” (João 3:16)
+            </p>
+            <p class="copyright">
+              Desenvolvido por Camilla Larissa &copy;
+              <span id="current-year"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS, jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Script  -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>
