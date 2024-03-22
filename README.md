@@ -36,6 +36,8 @@ O site inclui as seguintes funcionalidades:
 
 ## Capturas de Tela
 
+- **LINK:** https://comunidade-evangelica-restauracao.netlify.app/
+
 <img src="https://github.com/camillalarissa/site-igreja/assets/115382914/91556bc4-8829-45e4-8da4-1441f1b9f192" alt="Desktop" width="600">
 
 
